@@ -14,7 +14,7 @@
 	</parent>
 
 	<groupId>com.ftninformatika.jwd.modul3</groupId>
-	<artifactId>t11-back</artifactId>
+	<artifactId>agroplatform</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- lookup parent from repository -->
 	<!-- jar je predefinisana vrednost, ako se želi postavit war vrednost onda 
