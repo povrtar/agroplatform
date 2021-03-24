@@ -143,31 +143,21 @@
 	</dependencies>
 
 	<build>
-		<finalName>Wafepa</finalName>
-		<plugins>
-			<plugin>
-				 <artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-					 <archive>
+    <plugins>
+        <plugin>
+            <!-- Build an executable JAR -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.1.0</version>
+            <configuration>
+                <archive>
                     <manifest>
-                      <mainClass>com.ftninformatika.jwd.modul3.wafepa.WafepaApplication</mainClass>
+                        <mainClass>com.ftninformatika.jwd.modul3.wafepa.WafepaApplication</mainClass>
                     </manifest>
                 </archive>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>	
-					<excludeDevtools>false</excludeDevtools>
-				</configuration>
-				 <executions>
-                <execution>
-                    <id>make-assembly</id>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>single</goal>
-                    </goals>
-                </execution>
-            </executions>
-			</plugin>
-		</plugins>
-	</build>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+ 
 </project>
