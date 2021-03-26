@@ -1,0 +1,1 @@
+web: java -cp target/classes/:target/dependency/* com.ftninformatika.jwd.modul3.wafepa.WafepaApplication
