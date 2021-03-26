@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/*com.ftninformatika.jwd.modul3.wafepa.WafepaApplication 
+web: java $JAVA_OPTS -cp target/classes:target/dependency/*com.ftninformatika.jwd.modul3.wafepa.WafepaApplication --server.port=$PORT
